@@ -1,0 +1,5 @@
+<div class="chatcontrol">
+  <textarea class="form-control chatinput" rows="3" id="message" (keyup.enter)="sendMessage()" [(ngModel)]="message.content"></textarea>
+  <button class="btn btn-success sendbtn" (click)="sendMessage()">Send</button>
+  <i class="fas fa-microphone fa-2x"></i>
+</div>

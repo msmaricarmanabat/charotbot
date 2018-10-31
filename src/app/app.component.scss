@@ -1,0 +1,18 @@
+.chatform{
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.chatform-container {
+  border-right: 1px solid #e0d7d7;
+  height: 100vh;
+  position: relative;
+}
+
+.search-result {
+  border-left: 1px solid #ece2e2;
+  background: #2b98c6;
+  color: #ffffff;
+}
